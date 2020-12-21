@@ -25,10 +25,30 @@ require("channels")
 // External imports
 import "bootstrap";
 
-// Internal imports, e.g:
-// import { initSelect2 } from '../components/init_select2';
-
+// Internal imports
+import { exec_1 } from '../days/1.js';
+import { exec_2 } from '../days/2.js';
+import { exec_3 } from '../days/3.js';
+import { exec_4 } from '../days/4.js';
+import { exec_5 } from '../days/5.js';
+import { exec_6 } from '../days/6.js';
+import { exec_7 } from '../days/7.js';
+import { exec_8 } from '../days/8.js';
+import { exec_9 } from '../days/9.js';
+import { exec_10 } from '../days/10.js';
+import { exec_11 } from '../days/11.js';
+import { exec_12 } from '../days/12.js';
 document.addEventListener('turbolinks:load', () => {
-  // Call your functions here, e.g:
-  // initSelect2();
+  // exec_1();
+  // exec_2();
+  // exec_3();
+  // exec_4();
+  // exec_5();
+  // exec_6();
+  // exec_7();
+  // exec_8();
+  // exec_9();
+  // exec_10();
+  // exec_11();
+  exec_12();
 });
