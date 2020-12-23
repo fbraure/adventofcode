@@ -38,6 +38,14 @@ import { exec_9 } from '../days/9.js';
 import { exec_10 } from '../days/10.js';
 import { exec_11 } from '../days/11.js';
 import { exec_12 } from '../days/12.js';
+import { exec_13 } from '../days/13.js';
+import { exec_14 } from '../days/14.js';
+import { exec_14_2 } from '../days/14_2.js';
+import { exec_15 } from '../days/15.js';
+import { exec_16 } from '../days/16.js';
+import { exec_17 } from '../days/17.js';
+import { exec_18 } from '../days/18.js';
+import { exec_19 } from '../days/19.js';
 document.addEventListener('turbolinks:load', () => {
   // exec_1();
   // exec_2();
@@ -50,5 +58,13 @@ document.addEventListener('turbolinks:load', () => {
   // exec_9();
   // exec_10();
   // exec_11();
-  exec_12();
+  // exec_12();
+  // exec_13();
+  // exec_14();
+  // exec_14_2(); // Recheck calcul
+  // exec_15();
+  // exec_16(); // Chiant
+  // exec_17(); // Recheck calcul
+  // exec_18();
+  exec_19();
 });
